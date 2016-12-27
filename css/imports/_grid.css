@@ -26,48 +26,54 @@
 	clear: both;
 }
 .columns{
-	margin-left: 2%;
 	margin-bottom: 2%;
-	float: left;
 }
-.columns:first-child{
-	margin-left: 0;
-}
+/* iPad portrait width*/
+@media screen and (min-width: 481px){
+	.columns{
+		margin-left: 2%;
+		float: left;
+	}
+	.columns:first-child{
+		margin-left: 0;
+	}
 
-.columns.one{
-	width: 6.5%;
-}
-.columns.two{
-	width: 15%;
-}
-.columns.three{
-	width: 23.5%
-}
-.columns.four{
-	width: 32%;
-}
-.columns.five{
-	width: 40.5%;
-}
-.columns.six{
-	width: 49%;
-}
-.columns.seven{
-	width: 57.5%;
-}
+	.columns.one{
+		width: 6.5%;
+	}
+	.columns.two{
+		width: 15%;
+	}
+	.columns.three{
+		width: 23.5%
+	}
+	.columns.four{
+		width: 32%;
+	}
+	.columns.five{
+		width: 40.5%;
+	}
+	.columns.six{
+		width: 49%;
+	}
+	.columns.seven{
+		width: 57.5%;
+	}
 
-.columns.eight{
-	width: 66%;
-}
-.columns.nine{
-	width: 74.5%;
-}
-.columns.ten{
-	width: 83%;
-}
-.columns.eleven{
-	width: 91.5%;
-}
-.columns.twelve{
-	width: 100%;
+	.columns.eight{
+		width: 66%;
+	}
+	.columns.nine{
+		width: 74.5%;
+	}
+	.columns.ten{
+		width: 83%;
+	}
+	.columns.eleven{
+		width: 91.5%;
+	}
+	.columns.twelve{
+		width: 100%;
+	}
+
 }
