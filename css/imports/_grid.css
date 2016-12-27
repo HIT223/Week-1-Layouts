@@ -1,0 +1,13 @@
+/* 	TODO: Grid logic for basic rows and columns, as well as eight and four column cells
+
+	We're going to use a gutter width of 2% to keep things simple, and a total number of columns of 12 as this is the industry norm
+	
+	Math breakdown: (total width - total width of gutters) / total columns = column width
+	(100% - (2% * 11)) / 12 = 6.5% width columns
+
+	columns = 6.5% width
+	gutters = 2% width
+*/
+.row,.columns{
+	display: block;
+}
