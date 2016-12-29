@@ -1,12 +1,12 @@
 /*
 	Vendor imports (libs etc)
 */
-@import 'vendor/_normalize.css';
-@import 'vendor/_browserupgrade.css';
-/*@import 'vendor/_smart-grid.css';*/
+@import 'vendor/normalize.css';
+@import 'vendor/browserupgrade.css';
+/*@import 'vendor/smart-grid.css';*/
 
 /*
 	Our imports
 */
-@import 'imports/_debug.css';
-@import 'imports/_grid.css';
+@import 'lib/debug.css';
+@import 'lib/grid.css';
