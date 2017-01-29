@@ -1,73 +1,90 @@
 /* 	TODO: Grid logic for basic rows and columns, as well as eight and four column cells
 
 	We're going to use a gutter width of 2% to keep things simple, and a total number of columns of 12 as this is the industry norm
-	
+
 	Math breakdown: (total width - total width of gutters) / total columns = column width
 	(100% - (2% * 11)) / 12 = 6.5% width columns
-	
+
 
 	columns = 6.5% width
 	gutters = 2% width
 
 	(n)column width = (n)columns + (n-1)gutters
 */
-.container{
+
+.container {
 	max-width: 940px;
 	padding: 0 14px;
 	margin: 0 auto;
 }
-.row,.columns,.container{
+
+.row,
+.columns,
+.container {
 	display: block;
 }
-.row::after{
+
+.row::after {
 	/*Clearfix [https://css-tricks.com/snippets/css/clear-fix/]*/
 	content: "";
 	display: table;
 	clear: both;
 }
-.columns{
+
+.columns {
 	margin-left: 2%;
 	margin-bottom: 2%;
 	float: left;
 }
-.columns:first-child{
+
+.columns:first-child {
 	margin-left: 0;
 }
 
-.columns.one{
+.columns.one {
 	width: 6.5%;
 }
-.columns.two{
+
+.columns.two {
 	width: 15%;
 }
-.columns.three{
+
+.columns.three {
 	width: 23.5%
 }
-.columns.four{
+
+.columns.four {
 	width: 32%;
 }
-.columns.five{
+
+.columns.five {
 	width: 40.5%;
 }
-.columns.six{
+
+.columns.six {
 	width: 49%;
 }
-.columns.seven{
+
+.columns.seven {
 	width: 57.5%;
 }
 
-.columns.eight{
+.columns.eight {
 	width: 66%;
 }
-.columns.nine{
+
+.columns.nine {
 	width: 74.5%;
 }
-.columns.ten{
+
+.columns.ten {
 	width: 83%;
 }
-.columns.eleven{
+
+.columns.eleven {
 	width: 91.5%;
 }
-.columns.twelve{
+
+.columns.twelve {
 	width: 100%;
 }

@@ -1,12 +1,12 @@
-.row{
+.row {
 	background-color: #FFCDD2;
 }
 
-.columns{
+.columns {
 	background-color: #CE93D8;
 }
 
-.columns code{
+.columns code {
 	display: block;
 	font-weight: bold;
 	text-align: center;
