@@ -13,78 +13,78 @@
 */
 
 .container {
-	max-width: 940px;
-	padding: 0 14px;
-	margin: 0 auto;
+  max-width: 940px;
+  padding: 0 14px;
+  margin: 0 auto;
 }
 
 .row,
 .columns,
 .container {
-	display: block;
+  display: block;
 }
 
 .row::after {
-	/*Clearfix [https://css-tricks.com/snippets/css/clear-fix/]*/
-	content: "";
-	display: table;
-	clear: both;
+  /*Clearfix [https://css-tricks.com/snippets/css/clear-fix/]*/
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .columns {
-	margin-left: 2%;
-	margin-bottom: 2%;
-	float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  float: left;
 }
 
 .columns:first-child {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 .columns.one {
-	width: 6.5%;
+  width: 6.5%;
 }
 
 .columns.two {
-	width: 15%;
+  width: 15%;
 }
 
 .columns.three {
-	width: 23.5%
+  width: 23.5%
 }
 
 .columns.four {
-	width: 32%;
+  width: 32%;
 }
 
 .columns.five {
-	width: 40.5%;
+  width: 40.5%;
 }
 
 .columns.six {
-	width: 49%;
+  width: 49%;
 }
 
 .columns.seven {
-	width: 57.5%;
+  width: 57.5%;
 }
 
 .columns.eight {
-	width: 66%;
+  width: 66%;
 }
 
 .columns.nine {
-	width: 74.5%;
+  width: 74.5%;
 }
 
 .columns.ten {
-	width: 83%;
+  width: 83%;
 }
 
 .columns.eleven {
-	width: 91.5%;
+  width: 91.5%;
 }
 
 .columns.twelve {
-	width: 100%;
+  width: 100%;
 }
