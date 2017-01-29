@@ -1,79 +1,85 @@
 /* 	TODO: Grid logic for basic rows and columns, as well as eight and four column cells
 
 	We're going to use a gutter width of 2% to keep things simple, and a total number of columns of 12 as this is the industry norm
-	
+
 	Math breakdown: (total width - total width of gutters) / total columns = column width
 	(100% - (2% * 11)) / 12 = 6.5% width columns
-	
+
 
 	columns = 6.5% width
 	gutters = 2% width
 
 	(n)column width = (n)columns + (n-1)gutters
 */
-.container{
-	max-width: 940px;
-	padding: 0 14px;
-	margin: 0 auto;
+
+.container {
+  max-width: 940px;
+  padding: 0 14px;
+  margin: 0 auto;
 }
-.row,.columns,.container{
-	display: block;
+
+.row,
+.columns,
+.container {
+  display: block;
 }
-.row::after{
-	/*Clearfix [https://css-tricks.com/snippets/css/clear-fix/]*/
-	content: "";
-	display: table;
-	clear: both;
+
+.row::after {
+  /*Clearfix [https://css-tricks.com/snippets/css/clear-fix/]*/
+  content: "";
+  display: table;
+  clear: both;
 }
-.columns{
-	margin-bottom: 2%;
+
+.columns {
+  margin-bottom: 2%;
 }
+
+
 /* iPad portrait width*/
-@media screen and (min-width: 481px){
-	.columns{
-		margin-left: 2%;
-		float: left;
-	}
-	.columns:first-child{
-		margin-left: 0;
-	}
 
-	.columns.one{
-		width: 6.5%;
-	}
-	.columns.two{
-		width: 15%;
-	}
-	.columns.three{
-		width: 23.5%
-	}
-	.columns.four{
-		width: 32%;
-	}
-	.columns.five{
-		width: 40.5%;
-	}
-	.columns.six{
-		width: 49%;
-	}
-	.columns.seven{
-		width: 57.5%;
-	}
-
-	.columns.eight{
-		width: 66%;
-	}
-	.columns.nine{
-		width: 74.5%;
-	}
-	.columns.ten{
-		width: 83%;
-	}
-	.columns.eleven{
-		width: 91.5%;
-	}
-	.columns.twelve{
-		width: 100%;
-	}
-
+@media screen and (min-width: 481px) {
+  .columns {
+    margin-left: 2%;
+    float: left;
+  }
+  .columns:first-child {
+    margin-left: 0;
+  }
+  .columns.one {
+    width: 6.5%;
+  }
+  .columns.two {
+    width: 15%;
+  }
+  .columns.three {
+    width: 23.5%
+  }
+  .columns.four {
+    width: 32%;
+  }
+  .columns.five {
+    width: 40.5%;
+  }
+  .columns.six {
+    width: 49%;
+  }
+  .columns.seven {
+    width: 57.5%;
+  }
+  .columns.eight {
+    width: 66%;
+  }
+  .columns.nine {
+    width: 74.5%;
+  }
+  .columns.ten {
+    width: 83%;
+  }
+  .columns.eleven {
+    width: 91.5%;
+  }
+  .columns.twelve {
+    width: 100%;
+  }
 }
